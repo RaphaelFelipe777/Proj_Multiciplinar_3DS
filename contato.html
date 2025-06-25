@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Brinquedos que Transformam</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Logo Brinquedos Recicláveis">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="ideias.html">Ideias e Projetos</a></li>
+                    <li><a href="educacao.html">Educação Básica</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+                <div class="burger-menu" id="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-banner" style="background-image: url('assets/images/banner-contato.jpg');">
+            <div class="container">
+                <h1 class="reveal-bottom">Fale Conosco!</h1>
+            </div>
+        </section>
+
+        <section id="contact-intro" class="content-panel reveal-bottom">
+            <div class="container">
+                <h2 class="panel-title">Adoramos Receber Mensagens!</h2>
+                <p>Tem alguma dúvida, quer sugerir uma nova ideia de brinquedo, ou apenas compartilhar o seu projeto de reciclagem? Envie uma mensagem pra gente!</p>
+                <p>Se você é uma escola ou organização interessada em parcerias para projetos de educação ambiental, ficaremos felizes em conversar.</p>
+            </div>
+        </section>
+
+        <section id="contact-form-section" class="content-panel even-panel reveal-bottom">
+            <div class="container">
+                <h2 class="panel-title">Envie Sua Mensagem</h2>
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" action="#" method="POST">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+                        <label for="email">Seu Melhor E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" placeholder="Dúvida, Sugestão, Parceria..." required>
+
+                        <label for="mensagem">Sua Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+                        <button type="submit" class="btn-cta">Enviar Mensagem</button>
+                        <p id="form-message" class="form-message"></p>
+                    </form>
+                </div>
+
+                <div class="contact-info reveal-bottom">
+                    <h3>Ou Fale Conosco Diretamente:</h3>
+                    <p>E-mail: <a href="mailto:contato@brinquedostransformam.com.br">contato@brinquedostransformam.com.br</a></p>
+                    <p>Telefone: (41) 98765-4321 (Atendimento de Seg. a Sex. das 9h às 17h)</p>
+                    <p>Estamos localizados em Campo Largo, Paraná, Brasil.</p>
+                    <div class="social-media">
+                        <a href="https://facebook.com/seuperfil" target="_blank"><img src="assets/images/social-facebook.png" alt="Facebook"></a>
+                        <a href="https://instagram.com/seuperfil" target="_blank"><img src="assets/images/social-instagram.png" alt="Instagram"></a>
+                        <a href="https://youtube.com/seuperfil" target="_blank"><img src="assets/images/social-youtube.png" alt="YouTube"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Brinquedos que Transformam. Todos os direitos reservados.</p>
+            <div class="social-media">
+                <a href="https://facebook.com/seuperfil" target="_blank"><img src="assets/images/social-facebook.png" alt="Facebook"></a>
+                <a href="https://instagram.com/seuperfil" target="_blank"><img src="assets/images/social-instagram.png" alt="Instagram"></a>
+                <a href="https://youtube.com/seuperfil" target="_blank"><img src="assets/images/social-youtube.png" alt="YouTube"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

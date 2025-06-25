@@ -1,37 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iniciativa Do Lixo Ao Luxo</title>
-  <link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início | Brinquedos que Transformam - Crie, Brinque, Recicle!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
 </head>
 <body>
-  <div class="container">
-    <div class="img">
-      <img src="img/do lixo ao luxo.png" alt="Imagem inicial">
-    </div>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/do_lixo_ao_luxo-removebg-preview.png" alt="Logo Brinquedos Recicláveis" width="120px">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="ideias.html">Ideias e Projetos</a></li>
+                    <li><a href="educacao.html">Educação Básica</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <div class="burger-menu" id="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-    <h1 class="titulo">Iniciativa Do Lixo Ao Luxo</h1>
+    <main>
+        <section id="home-hero" class="hero-section">
+            <div class="container hero-content">
+                <h1 class="reveal-bottom">Brinquedos que Transformam</h1>
+                <p class="subtitle reveal-bottom">Crie, Brinque, Recicle!</p>
+                <div class="ribbon reveal-bottom">
+                    <span>Divirta-se e Cuide do Planeta!</span>
+                </div>
+                <a href="ideias.html" class="btn-cta reveal-bottom">Explore Nossas Criações</a>
+            </div>
+            <div class="hero-decoration top-left reveal-left"></div>
+            <div class="hero-decoration bottom-right reveal-right"></div>
+        </section>
 
-    <h2 class="subtitulo">Objetivo</h2>
+        <section id="welcome" class="content-panel welcome-panel reveal-bottom">
+            <div class="container">
+                <h2 class="panel-title">Bem-vindos ao Mundo da Recriação!</h2>
+                <p>Descubra como materiais do dia a dia podem se tornar a base para aventuras e aprendizados incríveis. Nosso projeto incentiva a criatividade e a consciência ambiental através da construção de brinquedos únicos.</p>
+                <p>Aqui, cada garrafa, caixa ou rolo de papel ganha uma nova vida, transformando o "lixo" em arte e diversão. Prepare-se para colocar a mão na massa e ver a magia acontecer!</p>
+                <a href="sobre.html" class="btn-secondary">Saiba Mais Sobre Nós</a>
+            </div>
+        </section>
 
-    <p class="descricao">
-      Nosso objetivo com essa atividade é incentivar a criação de brinquedos sustentáveis como forma de aprendizado, expressão e cuidado com o meio ambiente. Queremos mostrar que é possível aprender, brincar e cuidar do planeta ao mesmo tempo, promovendo também o bem-estar emocional das crianças por meio da criatividade e da valorização do que elas mesmas são capazes de construir.
-    </p>
+        <section id="featured-ideas" class="content-panel featured-ideas-panel reveal-bottom">
+            <div class="container">
+                <h2 class="panel-title">Ideias em Destaque</h2>
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="carousel-item">
+                            <img src="img/brinquedos/robo_caixa_leite.png" alt="Robô de Caixa de Leite">
+                            <h3>Robô Reciclado</h3>
+                            <p>Transforme caixas em um amigo robótico!</p>
+                            <a href="ideias.html#robot" class="btn-small">Ver Projeto</a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/brinquedos/bilboque.png" alt="Bilboquê de Garrafa PET">
+                            <h3>Bilboquê Divertido</h3>
+                            <p>Garrafas PET viram um clássico!</p>
+                            <a href="ideias.html#bilboque" class="btn-small">Ver Projeto</a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/brinquedos/carro.png" alt="Carro de Papelão">
+                            <h3>Carrinho Ecológico</h3>
+                            <p>Crie seu carro de corrida com papelão!</p>
+                            <a href="ideias.html#carro" class="btn-small">Ver Projeto</a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/brinquedos/cubo.png" alt="Cubo Mágico de Papelão">
+                            <h3>Cubo Sensorial</h3>
+                            <p>Descubra texturas e cores!</p>
+                            <a href="ideias.html#cubo" class="btn-small">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <button class="carousel-button prev"><</button>
+                    <button class="carousel-button next">></button>
+                </div>
+                <a href="ideias.html" class="btn-cta view-all-btn">Ver Todas as Ideias</a>
+            </div>
+        </section>
 
-    <h3 class="subtitulo_2">Justificativa Geral</h3>
-  <p class="descricao_2">
-     Criar brinquedos com materiais recicláveis é uma proposta que vai além da preservação do meio ambiente. Essa prática também contribui diretamente para o desenvolvimento saudável das crianças em diferentes aspectos, como o emocional, cognitivo e social. Ao mesmo tempo em que evita o descarte desnecessário de materiais, promove valores importantes como a criatividade, o respeito à natureza e o consumo consciente.
-</p>
-    <h4 class="subtitulo_3">Justificativa do Porquê Fazer</h4>
-    <p class="descricao_3">
-       Fazer brinquedos a partir de objetos recicláveis é uma forma divertida e educativa de estimular o aprendizado das crianças. Enquanto constroem, elas desenvolvem a coordenação motora, exercitam a concentração e aprendem a resolver problemas. Além disso, entrar em contato com diferentes formas, cores e texturas enriquece a percepção sensorial. Também é importante destacar o quanto isso fortalece a autoestima infantil, já que elas sentem orgulho ao brincar com algo que fizeram com as próprias mãos. Quando essa atividade é feita em grupo, ainda surgem momentos de colaboração, empatia e escuta, o que ajuda muito no convívio social e no trabalho em equipe.
+        <section id="call-to-action-educacao" class="content-panel cta-oficinas-panel reveal-bottom">
+            <div class="container">
+                <h2 class="panel-title">Aprenda a Salvar o Planeta!</h2>
+                <p>Nossa seção de Educação Básica sobre Reciclagem te ensina tudo que você precisa saber para se tornar um super-herói ambiental!</p>
+                <a href="educacao.html" class="btn-cta">Comece a Aprender</a>
+            </div>
+        </section>
+    </main>
 
-    </p>
-  </div>
+    <footer>
+        <div class="container">
+            <p>© 2025 Brinquedos que Transformam. Todos os direitos reservados.</p>
+            <div class="social-media"></div>
+        </div>
+    </footer>
 
-  
+    <script src="script.js"></script>
 </body>
 </html>
